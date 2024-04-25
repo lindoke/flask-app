@@ -1,0 +1,60 @@
+/* Store this code in 'style.css' file inside the 'static' folder */
+
+/* Header styling */
+.header {
+    padding: 5px 120px;
+    width: 150px;
+    height: 70px;
+    background-color: #236B8E; 
+}
+
+/* Border container styling */
+.border {
+    padding: 80px 50px;
+    width: 400px;
+    height: 450px;
+    border: 1px solid #236B8E;
+    border-radius: 10px; /* Rounded border corners */
+    background-color: #9AC0CD;
+}
+
+/* Button styling */
+.btn {
+    padding: 10px 40px;
+    background-color: #236B8E; 
+    color: #FFFFFF;
+    font-style: oblique;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Textbox styling */
+.textbox {
+    padding: 10px 40px;
+    background-color: #236B8E; 
+    color: #FFFFFF; /* Use color instead of text-color */
+    border-radius: 10px;
+}
+
+/* Placeholder styling */
+.textbox::placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+/* Word styling */
+.word {
+    color: #FFFFFF;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+/* Bottom text styling */
+.bottom {
+    color: #236B8E;
+    font-style: oblique;
+    font-weight: bold;
+}
